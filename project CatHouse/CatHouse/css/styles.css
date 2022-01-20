@@ -1,0 +1,151 @@
+body{
+    font-family: 'Montserrat';
+}
+
+#title {
+    background-color: #ff4c68;
+    color: #fff;
+}
+#h11{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+#heading {
+    padding: 3% 15%;
+}
+
+/* NAV-BAR */
+#navbar{
+    padding-bottom: 2rem;
+}
+
+#nd{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+#nav-item{
+    padding: 0 15px;
+}
+#nav-link{
+    font-size: 1.2rem;
+    font-family: 'Montserrat-light ', sans-serif;
+}
+
+/* Download btn */
+#dbtn{
+    margin: 5% 3% 5% 0;
+}
+
+/* Title Image */
+
+.imgdiv{
+    height: 478px;
+}
+.title-image{
+    position: relative;
+    width: 100%;
+    /* transform: rotate(25deg); */
+}
+
+#features{
+    padding: 7% 15%;
+
+}
+.f{
+    padding: 5%;
+    text-align: center;
+}
+.f h3{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.4rem;
+}
+
+.f p{
+    color: #8f8f8f;
+}
+
+.icon{
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+
+.icon:hover{
+    color: #ff4c68 ;
+}
+
+#testimonials{
+    padding: 7% 15%;
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff;
+}
+
+#testimonials p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    line-height: 2;
+}
+
+.timage{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+#press{
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.plogo{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+/* CARD */
+
+#pricing{
+    padding: 7% 15%;
+    text-align: center;
+    color: gray;
+
+}
+#pricing .row{
+    color: black;
+}
+
+@media (max-width: 1000px) {
+    #h11{
+        text-align: center;
+    }
+    #testimonials p{
+        font-size: 1.5rem;
+    }
+}
+
+/* footer */
+#cta {
+    background-color: #ff4c68;
+    color: #fff;
+    text-align: center;
+    padding: 3% 15%;
+}
+#cta h3{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+#footer{
+    text-align: center;
+    
+}
+#footer p{
+    color: gray;
+}
+.si{
+    margin:30px 10px;
+}
